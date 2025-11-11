@@ -2,8 +2,6 @@
 
 ## 🌟 Syncrate is a decentralized routing layer connecting fragmented RWA ecosystems, allowing users and protocols to seamlessly route liquidity between different tokenized asset classes and chains
 
-Please provide the following:
-
 - Interoperability for the tokenized economy
 - Syncrate is a routing / bridging solution that allows users and protocols bridge tokenized RWAs across various asset classes and chains
 - An indication of how your project relates to / integrates into Polkadot
@@ -23,8 +21,6 @@ We expect applicants to have a solid idea about the project's expected final sta
   - This is a place for you to manage expectations and clarify any limitations
 
 ### 🧩 Ecosystem Fit
-
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
 
 - Syncrate fits into the RWA ecosystem
 - Our target audience includes RWA tokenization protocols, onchain asset managers and crypto traders 
