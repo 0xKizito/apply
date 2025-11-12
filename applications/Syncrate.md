@@ -16,15 +16,43 @@ Syncrate plans to deploy on Moonbeam, leveraging its Ethereum compatibility and 
 
 ### 🔍 Project Details
 
-**Technology Stack (MVP Phase):
+**Technology Stack (MVP Phase):**
 
 - **Smart Contracts:** Solidity (deployed on Moonbeam for EVM compatibility)
 
 - **Backend Services:** Node.js & TypeScript (for routing logic, price feeds, and other management)
 
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
+- **Database Layer:** PostgreSQL for offchain order indexing and historical data.
+
+- **Frontend:** React + Next.js for web UI
+
+- **Cross-chain Messaging:** XCM intergration/LayerZero or Axelar adapters (Phase 2) for interoperability testing
+
+- ** Oracles:** Chainlink or RedStone (for RWA price and metadata feeds)
+
+
+**Core Components (for MVP):**
+
+1. **Offchain Routing Engine (Core):**
+
+  - Computes optimal multi-path routes between two tokenized RWAs using available liquidity sources and stable settlement tokens (synthetic pairing via USDC/USDT). 
+
+  - Considers price, slippage, gas, and counterparty constraints.
+
+  - Returns an executable route (sequence of adapters + onchain settlements).
+
+3. **RWA Token Module (Stub Version):**
+
+Smart contract interfaces that stimulate RWA tokens with metadata standards (ISIN, issuer info, etc) for testing RWA pair listings and swaps.
+
+4. **Liquidity Aggregator (Prototype):**
+
+A module that aggregates liquidity from multiple internal orderbooks, paving the way for future integration with external DEXs or parachain liquidity sources. 
+
+
+**UI Mockups (for MVP):**
+
+- Minimalist orderbook interface 
 - Data models / API specifications of the core functionality
 - What your project is *not* or will *not* provide or implement
   - This is a place for you to manage expectations and clarify any limitations
