@@ -2,7 +2,7 @@
 
 ## 🌟 Project Overview
 
-**Project Name: Syncrate
+**Project Name:** Syncrate
 - If the name of your project is not descriptive, a tagline (one sentence summary)
 - A brief description of your project
 - An indication of how your project relates to / integrates into Polkadot
