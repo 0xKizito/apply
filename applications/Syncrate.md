@@ -13,13 +13,15 @@ Syncrate is an orderbook-based decentralized exchange designed to unify liquidit
 Syncrate plans to deploy on Moonbeam, leveraging its Ethereum compatibility and cross-chain capabilities within the Polkadot ecosystem. The routing engine will integrate with XCM (Cross-Consensus Messaging) to enable native swaps and liquidity bridging between parachains. Over time, Syncrate aims to expand to Polkadot-native assets, building a liquidity and settlement layer for RWA-focused protocols within the network.
 
 **Why We're Interested:** Polkadot's shared security and interoperability model makes it ideal for building the first version of Syncrate. Rather than focusing on isolated chain deployments, we see Polkadot as the foundation for a multichain RWA liquidity network. Our team wants to demonstrate how cross-chain interoperability architectures can bring institutional-grade RWA protocols onchain in a scalable, interoperable manner.
-- (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
 
 ### 🔍 Project Details
 
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
+**Technology Stack (MVP Phase):
 
-- An overview of the technology stack to be used
+- **Smart Contracts:** Solidity (deployed on Moonbeam for EVM compatibility)
+
+- **Backend Services:** Node.js & TypeScript (for routing logic, price feeds, and other management)
+
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - Any PoC/MVP or other relevant prior work or research on the topic
 - Mockups/designs of any UI components
