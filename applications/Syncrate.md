@@ -35,7 +35,7 @@ By building Syncrate on Polkadot (starting with Moonbeam), we can combine scalab
 
 - **Cross-chain Messaging:** XCM intergration/LayerZero or Axelar adapters (Phase 2) for interoperability testing
 
-- ** Oracles:** Chainlink or RedStone (for RWA price and metadata feeds)
+- **Oracles:** Chainlink or RedStone (for RWA price and metadata feeds)
 
 
 **Core Components (for MVP):**
@@ -48,15 +48,25 @@ By building Syncrate on Polkadot (starting with Moonbeam), we can combine scalab
 
   - Returns an executable route (sequence of adapters + onchain settlements).
 
-3. **RWA Token Module (Stub Version):**
+2. **On-Chain Settlement & Adapter Contracts (Minimal):**
 
-Smart contract interfaces that stimulate RWA tokens with metadata standards (ISIN, issuer info, etc) for testing RWA pair listings and swaps.
+  - Lightweight contracts to perform final settlement steps onchain (e.g.,swap execution on a paired pool, cross-contract call orchestration).
 
-4. **Liquidity Aggregator (Prototype):**
+  - Adapter contract interfaces that standardize interaction with integrated liquidity sources (DEXs, vaults, oracles on Moonbeam)
 
-A module that aggregates liquidity from multiple internal orderbooks, paving the way for future integration with external DEXs or parachain liquidity sources. 
+3. **Liquidity Adapter Layer (Prototype):**
 
+  - Pluggable adapters for liquidity sources (internal test pools, simple AMM stubs, or partner DEXs) so the router can query depth and execution paths.
 
+4. **RWA Metadata & Pricing Module:**
+
+  - Offchain module that ingests RWA metadata (issuer, maturity, coupon, ISIN-like id) and price signals from oracles to inform routing decisions.
+
+5. **Frontend Demo & Developer API:**
+
+  - UI to submit a source and target RWA, view proposed routes, and simulate settlement.
+
+  - REST APIs: /route, /quote, /execute, /markets, /metadata.
 **UI Mockups (for MVP):**
 
 - Minimalist orderbook interface 
