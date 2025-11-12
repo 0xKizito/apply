@@ -128,8 +128,11 @@ Other RWA projects compete for liquidity, Syncrate connects them
 ## 👥 Team
 
 **Team Name:** Syncrate Labs
+
 **Contact Name:** Kizito Chukwuma
+
 **Contact Email:** kizitoweb3@gmail.com
+
 **Blog:** https://medium.com/@syncrate
 
 ### Team members
@@ -163,30 +166,26 @@ Amaechi is also the founder of DeCentral Hub, a community of blockchain founders
 
 ## 📊 Development Status
 
-We're still pre-MVP but has conducted extensive research on the RWA tokenization market and seen the need for an interoperability layer. 
+We're still pre-MVP but has conducted extensive research on the RWA tokenization market and seen the need for an interoperability layer.
+
 Our full research thesis can be found in our deck;
 https://drive.google.com/file/d/1qq3qzZbRF-6fCL_reEDfHxeClBRkIv7L/view?usp=drivesdk
 
 
 ## 📅 Development Roadmap
 
-**Important notes:**
-- Each milestone is capped at **$5,000 USD**
-- Milestones must be delivered within **3 months** of approval
-- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
-- You will only receive payment after successful milestone delivery
-
 ### Overview
 
 **Estimated Duration:** 6 weeks
-**Full-Time Equivalent (FTE):**  Two developers 
+
+**Full-Time Equivalent (FTE):** Two developers 
+
 **Total Costs:** $6,500
 
-> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0a. | LICENSE file in repo | MIT license for all code and examples (permissive, grant-friendly). |
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
