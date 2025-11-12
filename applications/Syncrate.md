@@ -7,10 +7,14 @@
 **Tagline:** Modular cross-chain interoperability layer for tokenized real-world assets.
 
 **Brief Description:**
-Syncrate is an orderbook-based decentralized exchange designed to unify liquidity for real-world assets (RWAs) across multiple blockchain ecosystems. It leverages cross-chain messaging and routing layers to enable seamless swaps, settlement, and price discovery between on-chain and off-chain tokenized assets. The protocol focuses on modularity, allowing RWA issuers, custodians, and traders to interact through an interoperable DeFi infrastructure rather than isolated pools or silos.
+**Syncrate** is an interoperability layer designed to connect fragmented real-world asset markets across multiple blockchains.
+It enables seamless routing and liquidity flow between tokenized assets, by abstracting complex settlement and cross-chain communication behind a unified routing layer.
+
+The MVP focuses on building the routing engine and adapter contracts that can query liquidity sources, compute efficient paths between RWA protocols, and execute synthetic settlements via stablecoin intermediaries. Syncrate’s mission is to simplify cross-market movement for users and developers, fostering a more connected and liquid RWA ecosystem.
 
 **Relation to Polkadot:**
-Syncrate plans to deploy on Moonbeam, leveraging its Ethereum compatibility and cross-chain capabilities within the Polkadot ecosystem. The routing engine will integrate with XCM (Cross-Consensus Messaging) to enable native swaps and liquidity bridging between parachains. Over time, Syncrate aims to expand to Polkadot-native assets, building a liquidity and settlement layer for RWA-focused protocols within the network.
+Polkadot’s multi-chain architecture and cross-consensus messaging (XCM) provide the ideal foundation for Syncrate’s interoperability goals.
+By deploying on Moonbeam, Syncrate can leverage both EVM compatibility and native access to Polkadot’s cross-chain communication.
 
 **Why We're Interested:** Polkadot's shared security and interoperability model makes it ideal for building the first version of Syncrate. Rather than focusing on isolated chain deployments, we see Polkadot as the foundation for a multichain RWA liquidity network. Our team wants to demonstrate how cross-chain interoperability architectures can bring institutional-grade RWA protocols onchain in a scalable, interoperable manner.
 
