@@ -176,7 +176,7 @@ https://drive.google.com/file/d/1qq3qzZbRF-6fCL_reEDfHxeClBRkIv7L/view?usp=drive
 
 ### Overview
 
-**Estimated Duration:** 6 weeks
+**Estimated Duration:** 8 weeks
 
 **Full-Time Equivalent (FTE):** Two developers 
 
@@ -189,36 +189,45 @@ https://drive.google.com/file/d/1qq3qzZbRF-6fCL_reEDfHxeClBRkIv7L/view?usp=drive
 | 0b. | Repo docs, API spec, and a deployment README | We will provide an inline code docs + a short developer README.md and an Adapter Integration Guide covering how to write / plug adapters into the router. |
 | 0c. | test/ + TESTING.md | Unit tests for core routing logic and adapter contracts; a brief testing guide describing how to run tests locally and on CI. |
 | 0d. | Publishable article + short announcement thread | We will publish a public write-up (medium-style / Devpost) summarizing what was built, design choices, and how other devs can integrate. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+| 1. | Feature 1 - Offchain Routing Engine (core) | We will create a develop the core TypeScript routing engine that computes optimal asset routes. This would include REST endpoints (/route, /quote, /adapters) and serialization for execution payloads. |
+| 2. | Feature 2 - Adapter Contracts & Interface | We will build Solidity adapter interface and deploy two prototype adapters (StableSettlementAdapter and TestAMMAdapter) on Moonbase Alpha. This includes adapter integration tests and ABI documentation. |
+| 3. | Feature 3 - Frontend Demo & Developer API Docs| We will create a minimal React frontend that connects to Moonbase Alpha, displays simulated routes, and runs test executions. Finally, we'll publish OpenAPI docs and deployment instructions for developers. |
 
 ### 💰 Budget Breakdown
 
-Please provide a breakdown of your budget by milestone:
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+| 1 | Routing engine | $4,500 | 3 weeks |
+| 2 | Adapter Contracts & Tests | $1,000 | 2 weeks |
+| 3 | Frontend Demo + API Docs | $600 | 2 weeks | 
+| 4 | Article & final handoff | $400 | 1 week |
+| **Total** | | **$6,500** | **8 weeks** |
 
-Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
+- The largest chunk goes towards the routing engine (which is the core work)
+
+- Budget covers developer time (2 devs part-time / or 1 full-time + part-time reviewer), testnet deployment costs, and small infra (CI, small cloud for indexer during testing).
+No marketing/mainnet costs included.
 
 ## 🔮 Future Plans
 
-Please include:
+- Once MVP is live, we plan to have the first pre-seed raise with select individuals and private communities. This raise will be capped at $100k and will be used for further protocol development, team hires and our first wave of marketing push.
+We also plan one additional VC raise capped at $1.2m at a $10M valuation. 
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+- At mainnet, Syncrate will generate revenue from routing and transaction fees (0.30-0.50%), institutional API access, and cross-chain settlement services for RWA issuers.
+
+- For our growth strategy, we will  partner with RWA protocols and on-chain asset managers to integrate routing.
+Our core users will come from these partnerships / integrations. 
 
 ## ℹ️ Additional Information
 
-Here you can add any additional information that you think is relevant to this application, such as:
+- We've completed the ideology stage is now ready to build the MVP (once we secure this grant)
 
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
+- At this stage, we've also finalized discussions with 3 launch partners that will be integrating Syncrate's routing solution both at testnet and when we launch the mainnet.
+We've also onboarded Zeus (@zeusRWA on twitter) - a well known name in the RWA ecosystem - as an advisor. 
 
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+- We'll have 3 testnets, first a closed in-house testnet, then the first gated testnet with select individuals (incentivized) and finally a public testnet (will not be incentivized).
+The public testnet will not be incentivized because we don't plan to build a community of farmers that provides minimal value and expect huge rewards. Nonetheless, we will reward contributors that stick and build with us.
+
+A more detailed roadmap can be found in our deck; https://drive.google.com/file/d/1qq3qzZbRF-6fCL_reEDfHxeClBRkIv7L/view?usp=drivesdk
+
