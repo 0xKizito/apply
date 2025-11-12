@@ -38,6 +38,7 @@ By building Syncrate on Polkadot (starting with Moonbeam), we can combine scalab
 - **Oracles:** Chainlink or RedStone (for RWA price and metadata feeds)
 
 
+
 **Core Components (for MVP):**
 
 1. **Offchain Routing Engine (Core):**
@@ -67,12 +68,43 @@ By building Syncrate on Polkadot (starting with Moonbeam), we can combine scalab
   - UI to submit a source and target RWA, view proposed routes, and simulate settlement.
 
   - REST APIs: /route, /quote, /execute, /markets, /metadata.
-**UI Mockups (for MVP):**
 
-- Minimalist orderbook interface 
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+
+
+**UI Mockups (for MVP):**
+The MVP will feature a minimal dashboard interface that demonstrates Syncrate's routing functionality. 
+Users will be able to:
+
+ - Connect a wallet (starting with Metamask via Moonbeam)
+
+ - Select a source and destination RWA protocol/chain
+
+ - View the optimal route, estimated cost and time
+
+ - Execute a simple cross-protocol transer using test assets.
+
+
+
+**Data Models / API Specifications:**
+
+ - POST /route — payload: { from_asset, to_asset, amount, max_slippage } → response: { routes: [{ steps: [...] , estPrice, estFee }] }
+
+ - POST /execute — payload: { selected_route, user_signature } → response: { tx_hashes, status }
+
+ - GET /markets — list supported assets + metadata
+
+ - GET /adapters — available liquidity adapters and their health/depth
+
+
+
+**What the MVP is NOT (scope boundaries):**
+
+ - **Not a custody layer / not holding user funds** - Settlement uses non-custodial on-chain calls.
+
+ - **Not a full DEX/orderbook** — we do not implement a native matching engine for limit orderbooks on-chain during MVP.
+
+ - **Not full multi-chain settlement** — cross-parachain/native bridging reserved for Phase 2.
+
 
 ### 🧩 Ecosystem Fit
 
