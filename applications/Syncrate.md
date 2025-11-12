@@ -1,11 +1,12 @@
-# 📝 Syncrate
+# Syncrate Network
 
-## 🌟 Syncrate is a decentralized routing layer connecting fragmented RWA ecosystems, allowing users and protocols to seamlessly route liquidity between different tokenized asset classes and chains
+## 🌟 Project Overview
 
-- Interoperability for the tokenized economy
-- Syncrate is a routing / bridging solution that allows users and protocols bridge tokenized RWAs across various asset classes and chains
+**Project Name: Syncrate
+- If the name of your project is not descriptive, a tagline (one sentence summary)
+- A brief description of your project
 - An indication of how your project relates to / integrates into Polkadot
-- Today, each RWA protocol operates in its own silo, with tokenized T-bills, real estate and tokenized stocks sitting in isolated pools. This makes it difficult for investors and institutions to efficiently move capital between asset classes and chains leading to significant amounts of idle liquidity across the ecosystem.
+- An indication of why your team is interested in creating this project
 - (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
 
 ### 🔍 Project Details
@@ -22,53 +23,66 @@ We expect applicants to have a solid idea about the project's expected final sta
 
 ### 🧩 Ecosystem Fit
 
-- Syncrate fits into the RWA ecosystem
-- Our target audience includes RWA tokenization protocols, onchain asset managers and crypto traders 
-- Syncrate solves the liquidity fragmentation issues in the RWA ecosystem and meets the need of interoperability.
-- No protocol currently offers RWA interoperatility in the Polkadot ecosystem
-  
-  - RWA protocols today compete for liqudity and often neglects interoperality that connects them.
+Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
 
+- Where and how does your project fit into the ecosystem?
+- Who is your target audience?
+- What need(s) does your project meet?
+- Are there any other projects similar to yours in the Polkadot ecosystem?
+  - If so, how is your project different?
+  - If not, why might such a project not exist yet?
+
+> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
 
 ## 👥 Team
 
-- Team Name: Syncrate Network.
-- Contact Name: Kizito Chukwuma
-- Contact Email: kizitoweb3@gmail.com
-- Website: https://medium.com/@syncrate
+- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
+- **Contact Name:** Full name of the contact person in your team
+- **Contact Email:** Contact email
+- **Website:** Your website, GitHub org, blog, or similar
 
 ### Team members
 
-Founder - Kizito Chukwuma
-Founding CTO - Amaechi Okolobi
+Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
 
 #### LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/in/amaechi-okolobi-3b36811a6/
+- https://www.linkedin.com/{person_1}
+- https://www.linkedin.com/{person_2}
 
 ### Team Code Repos
 
-- Not available yet (we're still pre-mvp)
+- https://github.com/{your_organisation}/{project_1}
+- https://github.com/{your_organisation}/{project_2}
 
 Please also provide the GitHub accounts of all team members:
 
-- https://github.com/0xKizito
+- https://github.com/{team_member_1}
+- https://github.com/{team_member_2}
 
 ### Team's experience
 
-Amaechi Okolobi leads as our founding CTO. A crypto security expert and blockchain developer. Ex. Head of Security at Chainlink Labs and founder of Decentral Hub (a community of web3 builders and developers). He's also the co-founder of Kova Network
-Ex. Operations Manager at Flutterwave (one of Africa's biggest fintech companies). Kizito has also worked as a biz/dev manager across various web3 protocols including CIAN Protocol & WhiteRock where he later departed as due to ethical misalignment within the team.
-
+Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
 
 ## 📊 Development Status
 
-Currently in the final ideology stage and pre-MVP
+If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
 
 ## 📅 Development Roadmap
 
-- Estimated Duration: 6 weeks
-- Full-Time Equivalent (FTE): 3 (2 devs and the founder)
-- Total Costs: $8,000
+This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
+
+**Important notes:**
+- Each milestone is capped at **$5,000 USD**
+- Milestones must be delivered within **3 months** of approval
+- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
+- You will only receive payment after successful milestone delivery
+
+### Overview
+
+- **Estimated Duration:** Duration of the whole project (maximum 3 months)
+- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
+- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
 
 > Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
