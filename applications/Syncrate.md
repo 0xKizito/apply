@@ -108,16 +108,22 @@ Users will be able to:
 
 ### 🧩 Ecosystem Fit
 
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Polkadot ecosystem?
-  - If so, how is your project different?
-  - If not, why might such a project not exist yet?
+**How we fit into the ecosystem:**
+Syncrate fits into the RWA tokenization vertical, bringing interoperability and cross-chain routing to protocols already tokenizing real world assets.
 
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
+**Target Audience:**
+Our target audience includes tokenization protocols & institutions, onchain asset managers and crypto traders.
+
+**The problem we're solving:**
+Today, tokenized RWAs sit in isolated pools, making it difficult for investors and traders to move capital between asset classes and chains. 
+Syncrate solves this problem by introducing a routing solution that connects this these fragmented ecosystems. 
+
+**Our competitors:**
+There is currently no direct competitors focused solely on interoperability for tokenized RWAs. While protocols like LayerZero, Axelar and Wormhole provide general cross-chain solutions, Syncrate is purpose-built for RWA liquidity. 
+ 
+Other RWA projects compete for liquidity, Syncrate connects them
+
 
 ## 👥 Team
 
