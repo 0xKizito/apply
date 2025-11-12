@@ -186,9 +186,9 @@ https://drive.google.com/file/d/1qq3qzZbRF-6fCL_reEDfHxeClBRkIv7L/view?usp=drive
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | LICENSE file in repo | MIT license for all code and examples (permissive, grant-friendly). |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
+| 0b. | Repo docs, API spec, and a deployment README | We will provide an inline code docs + a short developer README.md and an Adapter Integration Guide covering how to write / plug adapters into the router. |
+| 0c. | test/ + TESTING.md | Unit tests for core routing logic and adapter contracts; a brief testing guide describing how to run tests locally and on CI. |
+| 0d. | Publishable article + short announcement thread | We will publish a public write-up (medium-style / Devpost) summarizing what was built, design choices, and how other devs can integrate. |
 | 1. | Feature X | We will create a feature that will... (Please describe in detail) |
 | 2. | Feature Y | The Y feature will... (Please describe in detail) |
 | 3. | Feature Z | The Z feature will... (Please describe in detail) |
