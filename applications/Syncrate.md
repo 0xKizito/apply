@@ -7,7 +7,6 @@
 **Tagline:** Modular cross-chain interoperability layer for tokenized real-world assets.
 
 **Brief Description:**
-
 Syncrate is an orderbook-based decentralized exchange designed to unify liquidity for real-world assets (RWAs) across multiple blockchain ecosystems. It leverages cross-chain messaging and routing layers to enable seamless swaps, settlement, and price discovery between on-chain and off-chain tokenized assets. The protocol focuses on modularity, allowing RWA issuers, custodians, and traders to interact through an interoperable DeFi infrastructure rather than isolated pools or silos.
 
 **Relation to Polkadot:**
