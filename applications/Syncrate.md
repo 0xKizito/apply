@@ -127,41 +127,48 @@ Other RWA projects compete for liquidity, Syncrate connects them
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
+**Team Name:** Syncrate Labs
+**Contact Name:** Kizito Chukwuma
+**Contact Email:** kizitoweb3@gmail.com
+**Blog:** https://medium.com/@syncrate
 
 ### Team members
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
+Founder & CEO - Kizito Chukwuma
 
-#### LinkedIn Profiles (if available)
+Founding CTO - Amaechi Okolobi
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+#### LinkedIn Profiles 
 
-### Team Code Repos
+- https://www.linkedin.com/in/amaechi-okolobi-3b36811a6/
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+### Team Codes Repo
 
-Please also provide the GitHub accounts of all team members:
+Repo will be available when we start building the MVP
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+**Kizito's Github:**
+https://github.com/0xKizito
 
 ### Team's experience
 
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+**Kizito Chukwuma:**
+Previously Operations Manager at Flutterwave, he streamlined fintech operations across Africa, scaling payment infrastructure for millions.
+With 5+ years of experience in business development across diverse Web3 protocols including, CIAN Protocol and StakeToby, he’s passionate about DeFi and the next wave of tokenized economies. 
+
+A B.Eng degree holder from the Federal University of Technology, Owerri (one of the most prestigious institutions in West Africa). He also holds an Oxford Blockchain Strategy certificate from the Oxford Saïd Business School.
+
+**Amechi Okolobi:**
+Solana Labs Cohort 3 and Ex. Head of Security at Chainlink Labs, Amaechi brings blockchain security and RWA tokenization expertise to Syncrate. He has worked with web3 protocols across the UAE and New York. 
+Amaechi is also the founder of DeCentral Hub, a community of blockchain founders and developers. He is also the co-founder of Kova Network, a new and emerging computeFi protocol. 
 
 ## 📊 Development Status
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+We're still pre-MVP but has conducted extensive research on the RWA tokenization market and seen the need for an interoperability layer. 
+Our full research thesis can be found in our deck;
+https://drive.google.com/file/d/1qq3qzZbRF-6fCL_reEDfHxeClBRkIv7L/view?usp=drivesdk
+
 
 ## 📅 Development Roadmap
-
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
 
 **Important notes:**
 - Each milestone is capped at **$5,000 USD**
@@ -171,9 +178,9 @@ This section should break the development roadmap down into milestones and deliv
 
 ### Overview
 
-- **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
+**Estimated Duration:** 6 weeks
+**Full-Time Equivalent (FTE):**  Two developers 
+**Total Costs:** $6,500
 
 > Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
