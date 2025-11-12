@@ -16,7 +16,10 @@ The MVP focuses on building the routing engine and adapter contracts that can qu
 Polkadot’s multi-chain architecture and cross-consensus messaging (XCM) provide the ideal foundation for Syncrate’s interoperability goals.
 By deploying on Moonbeam, Syncrate can leverage both EVM compatibility and native access to Polkadot’s cross-chain communication.
 
-**Why We're Interested:** Polkadot's shared security and interoperability model makes it ideal for building the first version of Syncrate. Rather than focusing on isolated chain deployments, we see Polkadot as the foundation for a multichain RWA liquidity network. Our team wants to demonstrate how cross-chain interoperability architectures can bring institutional-grade RWA protocols onchain in a scalable, interoperable manner.
+**Why We're Interested:** The team believes that tokenization are the most tangible path to real-world adoption of Web3, yet the current market is fragmented with assets sitting in isolated pools and chains.
+Having spent years observing how liquidity fragmentation limits user participation and protocol growth, we’re motivated to build the routing infrastructure that bridges these isolated RWA ecosystems.
+
+By building Syncrate on Polkadot (starting with Moonbeam), we can combine scalable interoperability with secure cross-chain messaging, positioning Polkadot as the core hub for multi-chain RWA settlement.
 
 ### 🔍 Project Details
 
